@@ -1,0 +1,3 @@
+This objective of this simple project is just control an RC car through an Android app.
+
+The smartphone is connected to the Arduino via a Bluetooth module. In the app has some sort of arrow key, where each key corresponds to a character. When one of the arrow keys is pressed, the corresponding character is sent to the arduino and then the embedded software will activate the DC motors according to the character sent. When any of the expected characters are not sent, the RC car stops immediately. 
